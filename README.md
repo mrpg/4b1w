@@ -11,7 +11,7 @@ After you have successfully compiled your binary...
 
 > g++ a.cpp -std=c++0x -O3 -Wall -o4b1w
 
-//or//
+**or**
 
 > clang++ a.cpp -std=c++0x -O3 -Wall -o4b1w
 
