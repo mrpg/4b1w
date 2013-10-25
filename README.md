@@ -26,7 +26,7 @@ Behold! If the possible characters include umlauts (äöüß, etc.) and you are
 running 4b1w on a UTF-8 platform while your dictionary is using ISO-8859-1
 (like the standard dictionary) you have to invoke the program like this:
 
-> cat dict-de/dict_de.txt | ./4b1w $(echo ÜFSNTÄFLUTEMMR | iconv -t ISO-8859-1) 11 > results.txt
+> cat dict-de/dict_de.txt | ./4b1w $(echo ÜFSNTÄFLUTEMMR | iconv -t ISO-8859-1) 10 > results.txt
 
 You can then find your results in the file results.txt.
 
